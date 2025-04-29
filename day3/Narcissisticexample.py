@@ -8,3 +8,4 @@ while i<=1000:
     if i==r**3+s**3+t**3:
         print(i)
     i+=1
+    
