@@ -1,0 +1,10 @@
+Welcome to Cstcollege
+This is a example file.
+This file is created by python.
+This file is for testing purpose only.
+
+we all like Python program
+
+----------------------
+
+life is short, you need python
