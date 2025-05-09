@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create New Order</title>
+    <link rel="stylesheet" href="{% static 'order/css/create_order.css' %}">
+</head>
+<body>
+
+   
+        <div class="container">
+            <h2>Create New Order</h2>
+            <form method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn-submit">Submit Order</button>
+            </form>
+        </div>
+   
+
+</body>
+</html>

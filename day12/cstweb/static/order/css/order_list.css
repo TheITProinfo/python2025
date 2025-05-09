@@ -1,0 +1,64 @@
+/* static/css/order_list.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.no-orders {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
+
+.btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn-update {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.create-link {
+    font-size: 16px;
+    margin-left: 10px;
+}
