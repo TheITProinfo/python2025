@@ -20,5 +20,5 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     # http://localhost:8000/
-    path ('', include('crudapp.urls')),
+    path ('', include('crudapp.urls')),path ('crudapp/', include('crudapp.urls')),
 ]
